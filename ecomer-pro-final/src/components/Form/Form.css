@@ -1,0 +1,48 @@
+.form-class {
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    margin: 70px auto; 
+    width: 90%; 
+    max-width: 500px;
+}
+
+.form-class-dos {
+    margin-bottom: 15px;
+}
+
+.form-class-dos label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-class-dos input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-class-dos span {
+    color: #e50914;
+    font-size: 12px;
+}
+
+.btn {
+    background-color: #e50914;
+    color: white;
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #d40813;
+}

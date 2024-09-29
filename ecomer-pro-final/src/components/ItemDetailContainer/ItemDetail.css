@@ -1,0 +1,43 @@
+.item-ii-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    margin: 100px 0 10px;
+}
+
+.image-ii {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin-right: 40px;
+}
+
+.item-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.item-T {
+    font-size: 24px;
+    margin: 0; 
+    color: #333;
+}
+
+.item-P,
+.Item-P,
+.item-pp {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.item-pp {
+    font-weight: bold;
+    color: #e50914;
+}
